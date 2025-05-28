@@ -1,0 +1,39 @@
+﻿@model Hüseyin.Models.Ogrenciler
+@{
+    ViewData["Title"] = "Öğrenci Kaydet";
+}
+<div class="mt-4 text-end">
+    <a asp-controller="Home" asp-action="OgretmenMenu" class="btn btn-outline-secondary">
+        ⬅️ Geri Dön
+    </a>
+</div>
+<div class="container mt-5">
+    <div class="card shadow p-4" style="max-width: 500px; margin: 0 auto;">
+        <h3 class="text-center mb-4">👨‍🎓 Öğrenci Kaydı</h3>
+
+        @if (TempData["Mesaj"] != null)
+        {
+            <div class="alert alert-info">@TempData["Mesaj"]</div>
+        }
+
+        <form asp-action="OgrenciKaydet" method="post">
+            <div class="mb-3">
+                <label class="form-label">Ad</label>
+                <input asp-for="Ad" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Soyad</label>
+                <input asp-for="Soyad" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" type="email" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Şifre</label>
+                <input asp-for="Sifre" class="form-control" type="password" required />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Kaydet</button>
+        </form>
+    </div>
+</div>

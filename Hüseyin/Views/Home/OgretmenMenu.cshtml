@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Öğretmen Menüsü";
+
+    var ad = Context.Session.GetString("Ad");
+    var soyad = Context.Session.GetString("Soyad");
+    var email = Context.Session.GetString("Email");
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .menu-box {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        .left-box {
+            border-right: 2px solid #bbdefb;
+        }
+
+        .profile-label {
+            font-weight: 600;
+            color: #1565c0;
+        }
+
+        .btn-blue {
+            background-color: #1976d2;
+            color: white;
+            width: 200px;
+            margin-bottom: 15px;
+        }
+
+            .btn-blue:hover {
+                background-color: #1565c0;
+            }
+    </style>
+</head>
+<body>
+    <div class="mt-4 text-end">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">
+            ⬅️ Geri Dön
+        </a>
+    </div>
+    <div class="container mt-5">
+        <div class="row menu-box">
+            <!-- Sol Kısım: Öğretmen Bilgileri -->
+            <div class="col-md-4 left-box">
+                <h4 class="mb-4">👨‍🏫 Öğretmen Bilgileri</h4>
+                <p><span class="profile-label">Ad:</span> @ad</p>
+                <p><span class="profile-label">Soyad:</span> @soyad</p>
+                <p><span class="profile-label">Email:</span> @email</p>
+                <hr />
+                <h5 class="profile-label">Verilen Dersler:</h5>
+                <ul>
+                    @foreach (var ders in (dynamic)ViewBag.Dersler)
+                    {
+                        <li>@ders.DersAdi</li>
+                    }
+                </ul>
+            </div>
+
+            <!-- Sağ Kısım: Butonlar -->
+            <div class="col-md-8 text-center d-flex flex-column justify-content-center align-items-center">
+                <h4 class="mb-4">📘 Menü</h4>
+                <a href="/Home/NotVer" class="btn btn-blue">Not Ver</a>
+                <a href="/Home/DersAta" class="btn btn-blue">Ders Ata</a>
+                <a href="/Home/OgrenciKaydet" class="btn btn-blue">Öğrenci Kaydet</a>
+                <a href="/Home/DuyuruEkle" class="btn btn-blue">Duyuru Ekle</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

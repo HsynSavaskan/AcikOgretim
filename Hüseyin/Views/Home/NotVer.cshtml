@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Not Ver";
+    var dersler = ViewBag.Dersler as List<Hüseyin.Models.Dersler>;
+    var ogrenciDersleri = ViewBag.OgrenciDersleri as List<Hüseyin.Models.OgrenciDersleri>;
+    int? seciliDersId = ViewBag.SeciliDersId;
+}
+<div class="mt-4 text-end">
+    <a asp-controller="Home" asp-action="OgretmenMenu" class="btn btn-outline-secondary">
+        ⬅️ Geri Dön
+    </a>
+</div>
+<h2>📘 Not Ver</h2>
+
+<form method="get" asp-action="NotVer" asp-controller="Home">
+    <div class="mb-3">
+        <label class="form-label">Ders Seç:</label>
+        <select name="dersId" class="form-select" onchange="this.form.submit()">
+            <option disabled selected>-- Ders Seçin --</option>
+            @foreach (var ders in dersler)
+            {
+                var selected = ders.DersId == seciliDersId ? "selected" : "";
+                @Html.Raw($"<option value='{ders.DersId}' {selected}>{ders.DersAdi}</option>")
+            }
+        </select>
+    </div>
+</form>
+
+@if (seciliDersId != null && ogrenciDersleri.Any())
+{
+    <table class="table table-bordered mt-4">
+        <thead class="table-primary">
+            <tr>
+                <th>#</th>
+                <th>Öğrenci</th>
+                <th>1. Not</th>
+                <th>2. Not</th>
+                <th>Kaydet</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var kayit in ogrenciDersleri)
+            {
+                <tr>
+                    <form asp-action="NotVer" asp-controller="Home" method="post">
+                        <td>@kayit.Id</td>
+                        <td>@kayit.Ogrenci.Ad @kayit.Ogrenci.Soyad</td>
+                        <td>
+                            <input type="number" name="not1" value="@kayit.Not1" class="form-control" />
+                        </td>
+                        <td>
+                            <input type="number" name="not2" value="@kayit.Not2" class="form-control" />
+                        </td>
+                        <td>
+                            <input type="hidden" name="ogrenciDersId" value="@kayit.Id" />
+                            <button type="submit" class="btn btn-success">Kaydet</button>
+                        </td>
+                    </form>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (seciliDersId != null)
+{
+    <div class="alert alert-warning mt-3">Bu derse ait öğrenci bulunamadı.</div>
+}

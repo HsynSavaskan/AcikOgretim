@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Duyuru Ekle";
+    var ad = Context.Session.GetString("Ad");
+    var soyad = Context.Session.GetString("Soyad");
+}
+
+<div class="mt-4 text-end">
+    <a asp-controller="Home" asp-action="OgretmenMenu" class="btn btn-outline-secondary">
+        ⬅️ Geri Dön
+    </a>
+</div>
+
+<div class="container mt-5">
+    <div class="card shadow p-4" style="max-width: 700px; margin: 0 auto;">
+        <h3 class="text-center mb-4">📢 Yeni Duyuru Ekle</h3>
+
+        @if (TempData["Mesaj"] != null)
+        {
+            <div class="alert alert-success">@TempData["Mesaj"]</div>
+        }
+
+        <form asp-action="DuyuruEkle" method="post">
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Ekleyen Öğretmen</label>
+                    <input class="form-control" value="@ad @soyad" disabled />
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Duyuru Metni</label>
+                <textarea name="DuyuruMetin" class="form-control" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Duyuruyu Kaydet</button>
+        </form>
+    </div>
+</div>

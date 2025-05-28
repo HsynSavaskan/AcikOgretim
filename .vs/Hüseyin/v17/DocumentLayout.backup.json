@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\models\\alinandersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\models\\alinandersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\models\\dersler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\models\\dersler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\models\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\models\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\ogretmenmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\ogretmenmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\aldigidersler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\aldigidersler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\ogrencikaydet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\ogrencikaydet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\ogrencimenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\ogrencimenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\duyuruekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\duyuruekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|c:\\users\\engnc\\desktop\\h\u00FCseyin\\h\u00FCseyin\\h\u00FCseyin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9884EB-34A4-47F6-A379-86C5BF997CAB}|H\u00FCseyin\\H\u00FCseyin.csproj|solutionrelative:h\u00FCseyin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AldigiDersler.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\AldigiDersler.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\AldigiDersler.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\AldigiDersler.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\AldigiDersler.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T10:31:09.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OgrenciKaydet.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgrenciKaydet.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\OgrenciKaydet.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgrenciKaydet.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\OgrenciKaydet.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:17:04.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DuyuruEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\DuyuruEkle.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\DuyuruEkle.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\DuyuruEkle.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\DuyuruEkle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:16:38.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OgrenciMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgrenciMenu.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\OgrenciMenu.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgrenciMenu.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\OgrenciMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:13:37.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OgretmenMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgretmenMenu.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\OgretmenMenu.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\OgretmenMenu.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\OgretmenMenu.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T16:13:30.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VeritabaniContext.cs",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\VeritabaniContext.cs",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Models\\VeritabaniContext.cs",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\VeritabaniContext.cs",
+              "RelativeToolTip": "H\u00FCseyin\\Models\\VeritabaniContext.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:10:52.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dersler.cs",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\Dersler.cs",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Models\\Dersler.cs",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\Dersler.cs",
+              "RelativeToolTip": "H\u00FCseyin\\Models\\Dersler.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:10:33.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlinanDersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\AlinanDersViewModel.cs",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Models\\AlinanDersViewModel.cs",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Models\\AlinanDersViewModel.cs",
+              "RelativeToolTip": "H\u00FCseyin\\Models\\AlinanDersViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:10:30.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "H\u00FCseyin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAJoBAAAAAAAAAAAAALwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:48:25.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "H\u00FCseyin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\engnc\\Desktop\\H\u00FCseyin\\H\u00FCseyin\\H\u00FCseyin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "H\u00FCseyin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:46:44.71Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

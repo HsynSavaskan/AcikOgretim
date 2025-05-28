@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Ders Ata";
+    var ogrenciler = ViewBag.Ogrenciler as List<Hüseyin.Models.Ogrenciler>;
+    var dersler = ViewBag.Dersler as List<Hüseyin.Models.Dersler>;
+    var ogretmenler = ViewBag.Ogretmenler as List<Hüseyin.Models.Ogretmenler>;
+    int? seciliOgrenciId = ViewBag.SeciliOgrenciId;
+    int? seciliDersId = ViewBag.SeciliDersId;
+}
+<div class="mt-4 text-end">
+    <a asp-controller="Home" asp-action="OgretmenMenu" class="btn btn-outline-secondary">
+        ⬅️ Geri Dön
+    </a>
+</div>
+<div class="container mt-5">
+    <h3 class="mb-4">📚 Öğrenciye Ders Ata</h3>
+
+    @if (TempData["Mesaj"] != null)
+    {
+        <div class="alert alert-info">@TempData["Mesaj"]</div>
+    }
+
+    <form method="get" asp-action="DersAta">
+        <div class="mb-3">
+            <label>Öğrenci Seç</label>
+            <select name="ogrenciId" class="form-select" onchange="this.form.submit()">
+                <option disabled selected>-- Öğrenci Seçin --</option>
+                @foreach (var o in ogrenciler)
+                {
+                    string selected = o.OgrenciId == seciliOgrenciId ? "selected" : "";
+                    @Html.Raw($"<option value='{o.OgrenciId}' {selected}>{o.Ad} {o.Soyad}</option>")
+                }
+            </select>
+        </div>
+    </form>
+
+    @if (seciliOgrenciId != null)
+    {
+        <form method="get" asp-action="DersAta">
+            <input type="hidden" name="ogrenciId" value="@seciliOgrenciId" />
+            <div class="mb-3">
+                <label>Ders Seç</label>
+                <select name="dersAdi" class="form-select" onchange="this.form.submit()">
+                    <option disabled selected>-- Ders Seçin --</option>
+                    @foreach (var dersAdi in ViewBag.DersAdlari)
+                    {
+                        string selected = (dersAdi == ViewBag.SeciliDersAdi) ? "selected" : "";
+                        @Html.Raw($"<option value='{dersAdi}' {selected}>{dersAdi}</option>")
+                    }
+                </select>
+            </div>
+        </form>
+    }
+
+    @if (seciliOgrenciId != null && ViewBag.SeciliDersAdi != null && ViewBag.Ogretmenler != null)
+    {
+        <form method="post" asp-action="DersAta">
+            <input type="hidden" name="OgrenciId" value="@seciliOgrenciId" />
+            <input type="hidden" name="DersAdi" value="@ViewBag.SeciliDersAdi" />
+
+            <div class="mb-3">
+                <label>Öğretmen Seç</label>
+                <select name="OgretmenId" class="form-select" required>
+                    <option disabled selected>-- Öğretmen Seçin --</option>
+                    @foreach (var og in ViewBag.Ogretmenler)
+                    {
+                        <option value="@og.OgretmenId">@og.Ad @og.Soyad</option>
+                    }
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Dersi Ata</button>
+        </form>
+    }
+</div>

@@ -1,0 +1,38 @@
+﻿@model List<Hüseyin.Models.AlinanDersViewModel>
+
+<div class="mt-4 text-end">
+    <a asp-controller="Home" asp-action="OgrenciMenu" class="btn btn-outline-secondary">
+        ⬅️ Geri Dön
+    </a>
+</div>
+<div class="mt-3 text-end">
+    <a asp-action="AlinanDerslerPdf" asp-controller="Home" class="btn btn-danger">
+        🧾 PDF Olarak İndir
+    </a>
+</div>
+
+<h2>Alınan Dersler</h2>
+
+<table class="table table-bordered">
+    <thead class="table-primary">
+        <tr>
+            <th>#</th>
+            <th>Öğrenci</th>
+            <th>Öğretmen (Ders)</th> <!-- Başlık güncellendi -->
+            <th>1. Not</th>
+            <th>2. Not</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td>@(i + 1)</td>
+                <td>@Model[i].OgrenciAdSoyad</td>
+                <td>@Model[i].OgretmenAdSoyad</td> <!-- İçerik zaten dersle birlikte geliyor -->
+                <td>@Model[i].Not1</td>
+                <td>@Model[i].Not2</td>
+            </tr>
+        }
+    </tbody>
+</table>
