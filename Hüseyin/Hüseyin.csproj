@@ -129,6 +129,10 @@
     <Compile Include="Models\Duyurular.cs" />
     <Compile Include="Models\ErrorViewModel.cs" />
     <Compile Include="Models\Notlar.cs" />
+    <Compile Include="Models\OgrenciDersleri.cs" />
+    <Compile Include="Models\Ogrenciler.cs" />
+    <Compile Include="Models\Ogretmenler.cs" />
+    <Compile Include="Models\VeritabaniContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
